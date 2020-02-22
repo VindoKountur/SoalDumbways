@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.logo a {
+  color: black;
+  text-decoration: none;
+}
+
+.mainnav ul, li, li a {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+
+.mainnav ul li a, .box__btn {
+  cursor: pointer;
+  border: none;
+  padding: .25rem 3rem;
+  border-radius: .25rem;
+  background-color: #0569ba;
+}
+
+.main {
+  width: 85%;
+  margin: 2rem auto;
+}
+.box {
+  display: inline-block;
+  max-width: 260px;
+  text-align: center;
+  margin: 30px;
+}
+.box__data {
+  border: 1px solid black;
+  padding: .25rem;
+}
+.box__data__hobby, .box__data__nama, .box__btn {
+  margin-top: 10px;
+}
+.box__data__hobby {
+  text-align: left;
+  margin-left: 8px;
+}
+.box__btn {
+  color: white;
+  width: 100%;
+  padding: .4rem 3rem;
+  background-color: #0569ba;
+}
+
+.hapus {
+  background-color: #e8424f;
+}
+.edit {
+  background-color: #31cc77;
+}
+
+.hapus a, .edit a {
+  text-decoration: none;
+  color: white;
+}
+
+/* TAMBAH DATA */
+.mid {
+  display: flex;
+  justify-content: center;
+}
+
+.main .form__tambah label, .btn-submit {
+  display: block;
+  margin-top: 20px;
+}
+
+.form__tambah input, .btn-submit, select {
+  width: 380px;
+  padding: .5rem;
+}
+
+.btn-submit {
+  background-color: #0569ba;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
